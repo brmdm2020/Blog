@@ -1,0 +1,173 @@
+authorinfo:
+  leftTags:
+    - "🤖️ 数码科技爱好者"
+    - "🔍 分享与热心帮助"
+    - "🏠 智能程序小能手"
+    - "🔨 设计开发一条龙"
+  rightTags:
+    - "专修交互与设计 🤝"
+    - "仰望天空空想派 🏃"
+    - "团队小组发动机 🧱"
+    - "我人不狠话却多 💢"
+  image: "/img/avatar.webp"
+contentinfo:
+  name: 惟灿 Can1425
+  title: 学生、独立开发者、博主
+  product: 优秀的作品
+  design: 出色的设计
+  program: 高效的编程
+  user_experience: 舒适的用户体验
+
+skills:
+  title: 技能
+  subtitle: 创造力爆发
+  tags:
+    - title: AfterEffect
+      icon: https://p.zhheo.com/20239df3f66615b532ce571eac6d14ff21cf072602.png!cover
+      color: "#989bf8"
+    - title: Sketch
+      icon: https://p.zhheo.com/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.png!cover
+      color: "#ffffff"
+    - title: Docker
+      icon: https://p.zhheo.com/20231108a540b2862d26f8850172e4ea58ed075102.png!cover
+      color: "#57b6e6"
+    - title: Photoshop
+      icon: https://p.zhheo.com/2023e4058a91608ea41751c4f102b131f267075902.png!cover
+      color: "#4082c3"
+    - title: FinalCutPro
+      icon: https://p.zhheo.com/20233e777652412247dd57fd9b48cf997c01070702.png!cover
+      color: "#ffffff"
+    - title: Python
+      icon: https://p.zhheo.com/20235c0731cd4c0c95fc136a8db961fdf963071502.png!cover
+      color: "#ffffff"
+    - title: "Swift"
+      color: "#eb6840"
+      icon: "https://p.zhheo.com/202328bbee0b314297917b327df4a704db5c072402.png!cover"
+    - title: "Principle"      
+      color: "#8f55ba"
+      icon: "https://p.zhheo.com/2023f76570d2770c8e84801f7e107cd911b5073202.png!cover"
+    - title: "illustrator"
+      color: "#f29e39"
+      icon: "https://p.zhheo.com/20237359d71b45ab77829cee5972e36f8c30073902.png!cover"
+    - title: "CSS3"
+      color: "#2c51db"
+      icon: "https://p.zhheo.com/20237c548846044a20dad68a13c0f0e1502f074602.png!cover"
+    - title: "JS"
+      color: "#f7cb4f"
+      icon: "https://p.zhheo.com/2023786e7fc488f453d5fb2be760c96185c0075502.png!cover"
+    - title: "HTML"
+      color: "#e9572b"
+      icon: "https://p.zhheo.com/202372b4d760fd8a497d442140c295655426070302.png!cover"
+    - title: "Git"
+      color: "#df5b40"
+      icon: "https://p.zhheo.com/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.png!cover"
+    - title: "Rhino"
+      color: "#1f1f1f"
+      icon: "https://p.zhheo.com/20231ca53fa0b09a3ff1df89acd7515e9516173302.png!cover"
+careers:
+  title: "生涯"
+  subtitle: "进步，不止步"
+  items:
+    - school: ""
+      major: "编程"
+      color: "#357ef5"
+    - school: ""
+      major: "UI"
+      color: "#eb372a"
+  image: "https://p.zhheo.com/20236d5152f4058d0b8b29185c7b71bbd74a071902.png!cover"
+
+personalities:
+  tips: "性格"
+  title: "调停者"
+  color: "#56a178"
+  type: "INFP-T"
+  image: "/img/avatar.webp"
+  link: "https://www.16personalities.com/"
+  linkText: "16personalities"
+  typeLink: "https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC"
+  typeName: "调停者"
+  myphoto: ""
+
+motto:
+  title: 座右铭
+  prefix: 心若向阳，
+  content: 劈风斩浪。
+expertise:
+  title: 特长
+  prefix: 玄学流电脑疑难问题解决
+  specialist: 专家
+  content: 软件学习能力
+  level: MAX
+
+game1:
+  title: "待定"
+  icon: "fas fa-gamepad"
+  tips: "(⊙o⊙)…"
+  img: https://p.zhheo.com/2023788ba3b8739936f844e64f483faacaf1085602.png!cover
+game2:
+  title: "待定"
+  icon: "fas fa-dice-d20"
+  tips: "(⊙o⊙)…"
+  img: https://p.zhheo.com/2023ff56a55649cf81989b9e1f4efc836907085102.png!cover
+likes:
+  - type: like-technology
+    tips: 关注偏好
+    title: 数码科技
+    subtips: 手机、电脑软硬件
+    img: https://p.zhheo.com/2023e6940f5f56f0004af2705c3586d1fdf5190802.png!cover
+  - type: like-music
+    tips: 音乐偏好
+    title: Hiphop、民谣、华语流行、科幻电影插曲
+    subtips: 
+    img: https://bu.dusays.com/2023/03/12/640dc6bed6d2d.jpg
+
+
+oneself:
+  location: '中国，湖北省'
+  birthYear: '2011'
+  # university: '？'
+  # major: '？'
+  # occupation: '？'
+  map:
+    light: /images/about/map-light.png
+    dark: /images/about/map-dark.png
+
+tj: 
+  url: https://v6-widget.51.la/v6/K0yfsHaZHpjPWap0/quote.js
+  img: https://bu.dusays.com/2023/03/12/640dc8c72f623.webp
+
+cause: <br>感谢关注我的网站，如果你觉得站点不错也不妨也尝试搭个博客
+      <br>
+      我是一名学生，热爱编程，目前涉足 Scratch 和 Python 语言
+      <br>
+      我的网络分身也会出现在这里、钉钉、酷安、盛思论坛等
+      <br>
+      我会写作，本站绝大部分文章都是我的原创作品，如果你喜欢，可以在文章下方评论，与我交流
+      <br>
+      或许以后我还会开发出更多的开源作品，再次感谢你的关注和阅读😆
+
+rewardList:
+  - name: 思宁
+    money: 1
+    time: 2021-05-06
+    vip: false
+  - name: 小屁卡
+    money: 3
+    time: 2021-04-20
+    vip: false
+  - name: Adil
+    money: 50
+    time: 2021-03-25
+    vip: true
+  - name: ғᴏᴜʀʏ
+    money: 1
+    time: 2021-03-13
+    vip: false
+  - name: "**才"
+    money: 2
+    time: 2021-02-17
+    vip: false
+  - name: ZEvan
+    money: 1
+    time: 2021-01-11
+    vip: false
