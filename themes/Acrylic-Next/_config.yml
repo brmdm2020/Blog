@@ -46,7 +46,7 @@ nav:
      即刻:
        url: /says
        child:
-       icon: fas fa-user-group
+       icon: fas fa-duotone
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
     travellings: true   #开往
