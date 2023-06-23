@@ -12,7 +12,7 @@ info:
   # Site title
   title: Weican Can1425
   # Author name
-  author: 惟灿 Can1428
+  author: 惟灿 Can1425
   # Site URL
   url: https://can1425.best6.top
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -164,22 +164,25 @@ navbar:
     transparency: 35 #percent (10-99)
   # Navbar links
   links:
-     Home: 
+     首页: 
       path: / 
       icon: fa-regular fa-house # can be empty
-     Archives: 
+     归档: 
        path: /archives 
        icon: fa-regular fa-archive # can be empty
     # Status: 
     #   path: https://status.evanluo.top/
     #   icon: fa-regular fa-chart-bar
-     About: 
+     动态:
+      path: /essays
+      icon: fa-regular fa-chart-bar # can be empty
+     关于: 
        icon: fa-regular fa-user
        submenus:
-         Me: /about
+         我: /about
     #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
     #     Blog: https://ohevan.com
-         Friends: /friends
+         朋友们: /friends
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
