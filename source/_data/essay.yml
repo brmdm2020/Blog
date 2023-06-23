@@ -1,11 +1,9 @@
-essay_list:
-
-  - content: 被蚊子咬了好多包，好痒啊啊啊（悲
-    date: 2023-06-23
-    from: Can1425
-  - content: 终于把动态搞定了, 耶✌️, 首页瀑布流也干好了
-    date: 2023-06-19
-    link: https://can1425.best6.top
-  - content: 自己把Acrylic-Next主题移植过来了（手动移植的，我不太会用Git,悲），成就感∞，接下来要做的就是优化了
-    date: 2023-06-19
-    from: Can1425
+- content: 被蚊子咬了好多包，好痒啊啊啊（悲
+  date: 2023-06-23
+  from: Can1425
+- content: 终于把动态搞定了, 耶✌️, 首页瀑布流也干好了
+  date: 2023-06-19
+  link: https://can1425.best6.top
+- content: 自己把Acrylic-Next主题移植过来了（手动移植的，我不太会用Git,悲），成就感∞，接下来要做的就是优化了
+  date: 2023-06-19
+  from: Can1425
