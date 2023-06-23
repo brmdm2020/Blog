@@ -1,5 +1,6 @@
 ---
 abbrlink: ''
+layout: post
 categories:
 - 技术
 copyright: 原创
