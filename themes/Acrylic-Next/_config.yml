@@ -48,9 +48,9 @@ nav:
          友情链接:
            url: /links/
            icon: fas fa-user-group
-         宝藏博主:
-           url: javascript:travelling()
-           icon: fas fa-bus
+    #     宝藏博主:
+    #       url: javascript:travelling()
+    #       icon: fas fa-bus
 
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
