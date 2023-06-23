@@ -42,6 +42,11 @@ nav:
      友链:
        url: /friends/
        child:
+       icon: fas fa-user-group
+     即刻:
+       url: /says
+       child:
+       icon: fas fa-user-group
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
     travellings: true   #开往
