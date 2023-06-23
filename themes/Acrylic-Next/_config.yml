@@ -40,18 +40,8 @@ nav:
            url: /tags/
            icon: fas fa-tags
      友链:
-       url: false
-       child:
-    #     友链鱼塘:
-    #       url: /fcircle/
-    #       icon: fas fa-fish-fins
-         友情链接:
-           url: /links/
+       url: /friends/
            icon: fas fa-user-group
-    #     宝藏博主:
-    #       url: javascript:travelling()
-    #       icon: fas fa-bus
-
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
     travellings: true   #开往
