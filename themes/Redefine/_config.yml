@@ -108,14 +108,14 @@ home_banner:
   title: 惟灿 Can1425
   # Home banner subtitle
   subtitle:
-    text: [若晴天和日，就淡赏闲云。若风雨敲窗，就且听风吟。] # subtitle text, array
+    text: [山水万程，皆有好运。] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     typing_speed: 100 # Typing speed (ms)
     backing_speed: 80 # Backing speed (ms)
     starting_delay: 500 # Start delay (ms)
-    backing_delay: 1500 # Backing delay (ms)
+    backing_delay: 6600 # Backing delay (ms)
     loop: true # Whether to loop
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
