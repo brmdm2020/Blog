@@ -8,10 +8,11 @@ cover: https://mms2.baidu.com/it/u=14604986,1780685572&fm=253&app=138&f=JPEG?w=1
 date: '2023-06-08T19:35:43.777122+08:00'
 index_img: http://mms2.baidu.com/it/u=14604986,1780685572&fm=253&app=138&f=JPEG?w=1000&h=500
 locate: ''
+recommend: ''
 tags:
 - 关于小站
 title: 静与动的完美结合——快速解决Hexo痛点
-updated: 2023-6-19T13:21:5.819+8:0
+updated: 2023-6-24T15:21:23.746+8:0
 ---
 ## 写在前面
 
@@ -66,15 +67,6 @@ Hexo 对于我来说最大的痛点就是
 [![部署到 Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/am-abudu/Qexo)
 
 首次部署会报错, 请无视并重新进入项目, 在项目设置界面添加环境变量 Environment Variables
-
-| 名称            | 意义                                 | 示例                       |
-| --------------- | ------------------------------------ | -------------------------- |
-| MYSQL\_HOST     | MySQL 数据库连接地址                 | us-east.connect.psdb.cloud |
-| MYSQL\_PORT     | MySQL 数据库通信端口 默认应填写 3306 | 3306                       |
-| MYSQL\_USER     | MySQL 数据库用户名                   | abudu                      |
-| MYSQL\_NAME     | MySQL 数据库名                       | mydatabase                 |
-| MYSQL\_PASSWORD | MySQL 数据库密码                     | password                   |
-| PLANETSCALE     | (可选)用PlanetScale则设置为1         | 1                          |
 
 其中 `PLANETSCALE` 用于禁用外键约束, 以防止PlanetScale数据库部署失败, 若你自备数据库且没有特殊需求请**不要填写**
 
