@@ -5,7 +5,7 @@
 # Site
 title: 惟灿 Can1425
 subtitle: '心若向阳，无畏冰霜'
-description: '分享阳光与收获,欢笑与成长'
+description: '分享阳光与收获，欢笑与成长'
 keywords: 博客,hexo,Can1425,惟灿,中文博客,个人博客
 author: Can1425
 language: zh-CN
@@ -99,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Redefine
+theme: Acrylic-Next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
