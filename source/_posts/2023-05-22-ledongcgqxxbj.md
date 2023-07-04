@@ -4,7 +4,7 @@ banner_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/Hello-Worl
 categories:
 - - 技术
 copyright: ''
-cover: /images/uploads/post_61513.png
+cover: /images/uploads/post_61513.jpg
 date: 2023-05-22 16:05 +0800
 index_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/Hello-World.he5d7jy2ku8.webp
 locate: ''
