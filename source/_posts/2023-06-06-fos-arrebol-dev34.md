@@ -4,7 +4,7 @@ banner_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/IMG_202305
 categories:
 - - 技术
 copyright: ''
-cover: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/IMG_20230528_162150.36c7erco5ae0.jpg
+cover: /images/uploads/post_61889.jpg
 date: 2023-06-06 20:25 +0800
 index_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/IMG_20230528_162150.36c7erco5ae0.jpg
 locate: ''
@@ -12,7 +12,7 @@ tags:
 - Flag OS
 - Flag OS 2.0.0
 title: 【 Flag OS 】Flag OS 2.0.0 ( Arrebol ) Dev 34 - 开发者预览版
-updated: 2023-6-19T13:20:35.34+8:0
+updated: 2023-7-4T21:3:52.880+8:0
 ---
 ## 注意：此次发布的 Flag OS 为“ 开发者预览版 ”（ Arrebol ），系统本身存在不确定因素，可能出现未知情况
 
