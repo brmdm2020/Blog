@@ -4,7 +4,7 @@ banner_img: http://mms2.baidu.com/it/u=14604986,1780685572&fm=253&app=138&f=JPEG
 categories:
 - - 技术
 copyright: ''
-cover: https://mms2.baidu.com/it/u=14604986,1780685572&fm=253&app=138&f=JPEG?w=1000&h=500
+cover: /post_45965.jpg
 date: '2023-06-08T19:35:43.777122+08:00'
 index_img: http://mms2.baidu.com/it/u=14604986,1780685572&fm=253&app=138&f=JPEG?w=1000&h=500
 locate: ''
@@ -12,7 +12,7 @@ recommend: ''
 tags:
 - 关于小站
 title: 静与动的完美结合——快速解决Hexo痛点
-updated: 2023-6-24T15:21:23.746+8:0
+updated: 2023-7-4T20:34:27.180+8:0
 ---
 ## 写在前面
 
