@@ -4,14 +4,14 @@ banner_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/-891086880
 categories:
 - - 技术
 copyright: ''
-cover: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/-8910868801230046448.3j2k05bnn360.webp
+cover: /images/uploads/post_48157.jpg
 date: 2023-05-23 11:42 +0800
 index_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/-8910868801230046448.3j2k05bnn360.webp
 locate: ''
 tags:
 - 关于小站
 title: Hello World - 博客一周年
-updated: 2023-6-19T13:20:8.78+8:0
+updated: 2023-7-4T21:4:29.48+8:0
 ---
 ## Hello
 
