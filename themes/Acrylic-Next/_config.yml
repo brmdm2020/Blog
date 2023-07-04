@@ -47,6 +47,10 @@ nav:
        url: /says
        child:
        icon: fas fa-duotone
+     关于（待装修）:
+       url: /about
+       child:
+       icon: fas fa-duotone
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
     travellings: true   #开往
@@ -281,7 +285,7 @@ thirdparty:
       CDN:
     
   aplayer:
-    enable: false
+    enable: true
     server: tencent
     id: 1708664797  
     api: "https://music.startly.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" #自定义api    
