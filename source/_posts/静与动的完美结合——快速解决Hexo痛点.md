@@ -4,7 +4,7 @@ banner_img: http://mms2.baidu.com/it/u=14604986,1780685572&fm=253&app=138&f=JPEG
 categories:
 - - 技术
 copyright: ''
-cover: /post_45965.jpg
+cover: /images/uploads/post_45965.jpg
 date: '2023-06-08T19:35:43.777122+08:00'
 index_img: http://mms2.baidu.com/it/u=14604986,1780685572&fm=253&app=138&f=JPEG?w=1000&h=500
 locate: ''
