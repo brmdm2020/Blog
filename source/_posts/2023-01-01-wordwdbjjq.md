@@ -4,9 +4,10 @@ banner_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/IMG_202301
 categories:
 - - 技术
 - - 学习
-copyright: ''
+copyright: 原创
 cover: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/IMG_20230101_152215.247tbh3lq99c.webp
 date: 2023-01-01 15:28 +0800
+img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/IMG_20230101_152215.247tbh3lq99c.webp
 index_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/IMG_20230101_152215.247tbh3lq99c.webp
 locate: ''
 recommend: true
@@ -14,7 +15,8 @@ tags:
 - 技巧
 - Word
 title: Word文档编辑技巧
-updated: 2023-6-21T18:59:20.775+8:0
+top: true
+updated: 2023-7-12T20:53:31.744+8:0
 ---
 > 下面以“标书”编写为例
 
