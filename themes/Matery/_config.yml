@@ -73,9 +73,8 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: 我的梦想
-  text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
-
+  title: 梦想与我
+  text: 哪个男孩女孩没有做过上天入地、移山倒海的梦啊，只不过在生活面前，很多人慢慢放弃了自己童年的梦想，所以他们沦落为失去梦想的人；而有些人，无论生活多么艰难，从来没有放弃梦想，于是，他们成为永葆青春梦想、永葆奋斗激情的人、能够改变世界、创造未来的人。
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
@@ -145,13 +144,13 @@ recommend:
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
 favicon: /favicon.png
-logo: /medias/logo.png
+# logo: /medias/logo.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
-  enable: true
+  enable: false
   name: Github
   icon: fab fa-github-alt
   url: https://github.com/blinkfox/hexo-theme-matery
@@ -188,7 +187,7 @@ code:
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
-  enable: true
+  enable: false
   title: 你的赏识是我前进的动力
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.jpg
@@ -245,7 +244,7 @@ sakura:
 
 # 是否激活页面鼠标星星跟随效果, 只在桌面版网页启用特效
 mouseStar:
-  enable: false
+  enable: true
 
   # 是否激活页面飘雪效果, 只在桌面版网页启用特效
 snowdown:
