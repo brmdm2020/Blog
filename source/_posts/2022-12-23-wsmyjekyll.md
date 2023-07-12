@@ -6,13 +6,15 @@ categories:
 copyright: 原创
 cover: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/R-C.7j4k10su5ds0.webp
 date: 2022-12-23 11:21 +0800
+img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/R-C.7j4k10su5ds0.webp
 index_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/R-C.7j4k10su5ds0.webp
 locate: 湖北
 tags:
 - 关于小站
 - 博客大揭秘
 title: 博客大揭秘——“什么？你问我为什么用Jekyll”
-updated: 2023-6-18T8:17:2.982+8:0
+top: false
+updated: 2023-7-12T20:53:14.246+8:0
 ---
 “什么？你问我为什么要用Jekyll”
 
