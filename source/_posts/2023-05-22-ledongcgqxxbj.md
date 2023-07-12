@@ -3,16 +3,18 @@ abbrlink: ''
 banner_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/Hello-World.he5d7jy2ku8.webp
 categories:
 - - 技术
-copyright: ''
+copyright: 原创
 cover: /images/uploads/post_61513.jpg
 date: 2023-05-22 16:05 +0800
+img: /images/uploads/post_61513.jpg
 index_img: https://cdn.staticaly.com/gh/Can1425/image-Can1425@master/Hello-World.he5d7jy2ku8.webp
 locate: ''
 tags:
 - mPython
 - Python
 title: 这些天乐动传感器的学习笔记（踩的坑）
-updated: 2023-7-4T21:14:12.533+8:0
+top: true
+updated: 2023-7-12T20:54:52.204+8:0
 ---
 ## 我为什么 ~100年~ 那么久没写 blog 了
 
