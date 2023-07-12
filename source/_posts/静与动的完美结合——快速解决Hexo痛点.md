@@ -3,16 +3,18 @@ abbrlink: ''
 banner_img: http://mms2.baidu.com/it/u=14604986,1780685572&fm=253&app=138&f=JPEG?w=1000&h=500
 categories:
 - - 技术
-copyright: ''
+copyright: 原创
 cover: /images/uploads/post_45965.jpg
 date: '2023-06-08T19:35:43.777122+08:00'
+img: /images/uploads/post_45965.jpg
 index_img: http://mms2.baidu.com/it/u=14604986,1780685572&fm=253&app=138&f=JPEG?w=1000&h=500
 locate: ''
 recommend: ''
 tags:
 - 关于小站
 title: 静与动的完美结合——快速解决Hexo痛点
-updated: 2023-7-4T20:34:27.180+8:0
+top: true
+updated: 2023-7-12T20:55:58.365+8:0
 ---
 ## 写在前面
 
