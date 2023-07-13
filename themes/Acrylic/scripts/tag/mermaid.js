@@ -1,5 +1,5 @@
 /**
- * Acrylic
+ * Butterfly
  * mermaid
  * https://github.com/mermaid-js/mermaid
  */

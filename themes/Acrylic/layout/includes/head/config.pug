@@ -28,6 +28,29 @@
     })
   }
 
+  let translate = 'undefined';
+  if (theme.translate && theme.translate.enable){
+    translate = JSON.stringify({
+      defaultEncoding: theme.translate.defaultEncoding,
+      translateDelay: theme.translate.translateDelay,
+      msgToTraditionalChinese: theme.translate.msgToTraditionalChinese,
+      msgToSimplifiedChinese: theme.translate.msgToSimplifiedChinese
+    })
+  }
+
+  let copyright = 'undefined';
+  if (theme.copy.enable && theme.copy.copyright.enable){
+    copyright = JSON.stringify({
+      limitCount: theme.copy.copyright.limit_count,
+      languages: {
+        author: _p("copy_copyright.author") + ': ' + config.author,
+        link: _p("copy_copyright.link") + ': ',
+        source: _p("copy_copyright.source") + ': ' + config.title,
+        info: _p("copy_copyright.info")
+      }
+    })
+  }
+
   let Snackbar = 'undefined';
   if (theme.snackbar && theme.snackbar.enable) {
     Snackbar = JSON.stringify({
@@ -41,22 +64,33 @@
     })
   }
 
+  let noticeOutdate = 'undefined';
+  if (theme.noticeOutdate && theme.noticeOutdate.enable) {
+    noticeOutdate = JSON.stringify({
+      limitDay: theme.noticeOutdate.limit_day,
+      position: theme.noticeOutdate.position,
+      messagePrev: theme.noticeOutdate.message_prev,
+      messageNext: theme.noticeOutdate.message_next,
+    })
+  }
+
   let highlight = 'undefined';
-    if (config.highlight && config.highlight.enable) {
-      highlight = JSON.stringify({
-        plugin: config.highlight.enable ? 'highlighjs' : 'prismjs',
-        highlightCopy: theme.highlight_copy,
-        highlightLang: theme.highlight_lang,
-        highlightHeightLimit: theme.highlight_height_limit
-      })
-    }
+  if ((config.highlight && config.highlight.enable) || (config.prismjs && config.prismjs.enable)) {
+    highlight = JSON.stringify({
+      plugin: config.highlight.enable ? 'highlighjs' : 'prismjs',
+      highlightCopy: theme.highlight_copy,
+      highlightLang: theme.highlight_lang,
+      highlightHeightLimit: theme.highlight_height_limit
+    })
+  }
 
 script.
-  const GLOBAL_CONFIG = {
+  const GLOBAL_CONFIG = { 
     root: '!{config.root}',
     algolia: !{algolia},
     localSearch: !{localSearch},
-    translate: { "defaultEncoding": 2, "translateDelay": 0, "msgToTraditionalChinese": "简", "msgToSimplifiedChinese": "繁" },
+    translate: !{translate},
+    noticeOutdate: !{noticeOutdate},
     highlight: !{highlight},
     copy: {
       success: '!{_p("copy.success")}',
@@ -67,7 +101,7 @@ script.
       homepage: !{theme.post_meta.page.date_format === 'relative'},
       post: !{theme.post_meta.post.date_format === 'relative'}
     },
-    runtime: '!{theme.runtime.enable ? _p("aside.card_webinfo.runtime.unit") : ""}',
+    runtime: '!{theme.runtimeshow.enable ? _p("aside.card_webinfo.runtime.unit") : ""}',
     date_suffix: {
       just: '!{_p("date_suffix.just")}',
       min: '!{_p("date_suffix.min")}',
@@ -75,9 +109,16 @@ script.
       day: '!{_p("date_suffix.day")}',
       month: '!{_p("date_suffix.month")}'
     },
-    lightbox: '!{"fancybox"}',
+    copyright: !{copyright},
+    lightbox: '!{ theme.medium_zoom ? "mediumZoom" : (theme.fancybox ? "fancybox" : "null" )}',
     Snackbar: !{Snackbar},
-    isPhotoFigcaption: !{true},
+    source: {
+      justifiedGallery: {
+        js: '!{url_for(theme.asset.flickr_justified_gallery_js)}',
+        css: '!{url_for(theme.asset.flickr_justified_gallery_css)}'
+      }
+    },
+    isPhotoFigcaption: !{theme.photofigcaption},
     islazyload: !{theme.lazyload.enable},
-    isAnchor: !{false},
+    isAnchor: !{theme.anchor}
   }

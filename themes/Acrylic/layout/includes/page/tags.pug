@@ -1,3 +1,2 @@
-h1.page-title(style='display: inline;')=_p('page.tag')
 .tag-cloud-list.is-center
-  !=pagecloud({source: site.tags})
+  !=cloudTags({source: site.tags, minfontsize: 1.2, maxfontsize: 2.1, limit: 0, unit: 'em'})
