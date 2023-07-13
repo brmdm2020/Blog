@@ -169,7 +169,7 @@ post_meta:
 # see https://butterfly.js.org/posts/ceeb73f/#字数统计
 wordcount:
   enable: true
-  post_wordcount: true
+  post_wordcount: false
   min2read: true
   total_wordcount: false
 
