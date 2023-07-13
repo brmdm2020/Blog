@@ -168,9 +168,9 @@ post_meta:
 # wordcount (字数统计)
 # see https://butterfly.js.org/posts/ceeb73f/#字数统计
 wordcount:
-  enable: true
+  enable: false
   post_wordcount: false
-  min2read: true
+  min2read: false
   total_wordcount: false
 
 # Display the article introduction on homepage
