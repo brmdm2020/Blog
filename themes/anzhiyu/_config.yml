@@ -110,11 +110,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /img/favicon.ico
+favicon: /images/uploads/logo.png
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: /images/uploads/logo.jpg
   effect: false
 
 # Disable all banner image
@@ -384,7 +384,7 @@ footer:
   custom_text:
   runtime:
     enable: true
-    launch_time: 05/23/2022 00:00:00 # 网站上线时间
+    launch_time: 05/23/2022 11:42:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -692,7 +692,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: # 自定义头像
+  avatar: /images/uploads/logo.jpg # 自定义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -766,7 +766,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 5/23/2022 00:00:00
+  publish_date: 5/23/2022 11:42:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -942,7 +942,7 @@ home_top:
   timemode: date #date/updated
   title: 心若向阳
   subTitle: 无畏冰霜
-  siteText: anheyu.com
+  siteText: 惟灿 Can1425
   category:
     - name: mPython
       path: /tags/mPython/
@@ -967,8 +967,8 @@ home_top:
   banner:
     tips: 推荐好文
     title: 分享欢笑与收获，快乐与成长
-    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://blog.anheyu.com/docs
+    image: /images/uploads/head.jpg
+    link: /
 
 # 朋友圈配置
 friends_vue:
@@ -1025,7 +1025,7 @@ nav_music:
 # 评论匿名邮箱
 visitorMail:
   enable: true
-  mail: visitor@anheyu.com
+  mail: hhh@114514.com
 
 # ptool 文章底部工具
 ptool:
@@ -1069,7 +1069,7 @@ greetingBox:
 
 # 文章顶部ai摘要
 post_head_ai_description:
-  enable: true
+  enable: false
   gptName: AnZhiYu
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
