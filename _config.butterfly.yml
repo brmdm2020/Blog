@@ -85,11 +85,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /images/uploads/logo.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/touxiang.png
+  img: /images/uploads/logo.png
   effect: false
 
 # Disable all banner image
@@ -268,7 +268,7 @@ comments:
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
   # - livere
-  - Twikoo
+  - Waline
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -413,8 +413,8 @@ messenger:
 footer:
   owner:
     enable: true
-    since: 2021
-  custom_text: Copyright EACL Shige | <a href="https://www.eacls.top/privacy/" target="_blank">隐私协议</a> | <a href="https://icp.gov.moe/?keyword=20210171" target="_blank">萌ICP备20210171号</a> | <a href="https://firewood.news/" target="_blank">积薪</a> | <a href="https://www.foreverblog.cn/blog/3938.html" target="_blank">十年之约</a> | <a href="https://storeweb.cn/site/o/1592" target="_blank">个站商店</a> | <a href="https://bf.zzxworld.com/s/752" target="_blank">BlogFinder</a> | <a href="https://www.eacls.top/rss2.xml" target="_blank">RSS订阅</a> | ——Take a look at the prosperity of the world
+    since: 2022
+  custom_text: Copyright 惟灿 Can1425 - Take a look at the prosperity of the world
   copyright: false # Copyright of theme and framework
 
 # Analysis
@@ -422,7 +422,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics: 15bb45ba3ff3500abf98eb9b0066ffde
+baidu_analytics: 
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
@@ -665,7 +665,7 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Gitub开源
+      text: Gitub 开源
       link: https://github.com/Eacls/eacls.github.io
   card_announcement:
     enable: false
@@ -709,7 +709,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 9/12/2021 00:00:00
+  publish_date: 23/5/2022 11:42:00
 
 # Aside widget - Newest Comments
 newest_comments:
