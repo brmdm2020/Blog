@@ -153,24 +153,12 @@ magnet:
   type: categories
   devide: 3
   display:
-    - name: 科技前沿
-      display_name: 科技前沿
+    - name: 学习
+      display_name: 学习
       icon: 💻
-    - name: 生活随评
-      display_name: 生活随评
+    - name: 技术
+      display_name: 技术
       icon: ☕
-    - name: 实用教程
-      display_name: 实用教程
-      icon: 💎
-    - name: 深度好文
-      display_name: 深度好文
-      icon: 🎩
-    - name: 本站日志
-      display_name: 本站日志
-      icon: 📑
-    - name: 理念思考
-      display_name: 理念思考
-      icon: 🎇
   color_setting:
     text_color: black
     text_hover_color: black
