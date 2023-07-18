@@ -5,3 +5,11 @@ block content
   #recent-posts.recent-posts
     +postUI
     include includes/pagination.pug
+
+block content
+  include ./includes/mixins/post-ui.pug
+  #recent-posts.recent-posts
+    include includes/categoryList.pug
++    include includes/bbTimeList.pug
+    +postUI
+    include includes/pagination.pug
