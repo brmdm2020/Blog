@@ -1,51 +1,58 @@
-include includes/hometop.pug
-if !theme.disable_top_img && page.top_img !== false
-  if is_post()
-    - var top_img = page.top_img || page.cover || page.randomcover
-  else if is_page()
-    - var top_img = page.top_img || theme.default_top_img
-  else if is_tag()
-    - var top_img = theme.tag_per_img && theme.tag_per_img[page.tag] 
-    - top_img = top_img ? top_img : (theme.tag_img !== false ? theme.tag_img || theme.default_top_img : false)
-  else if is_category()
-    - var top_img = theme.category_per_img && theme.category_per_img[page.category]
-    - top_img = top_img ? top_img : (theme.category_img !== false ? theme.category_img || theme.default_top_img : false)
-  else if is_home()
-    - var top_img = theme.index_img !== false ? theme.index_img || theme.default_top_img : false
-  else if is_archive()
-    - var top_img = theme.archive_img !== false ? theme.archive_img || theme.default_top_img : false
-  else
-    - var top_img = page.top_img || theme.default_top_img
-
-  if top_img !== false
-    - var imgSource = top_img && top_img.indexOf('/') !== -1 ? `background-image: url('${url_for(top_img)}')` : `background: ${top_img}`
-    - var bg_img = top_img ? imgSource : ''
-    - var site_title = page.title || page.tag || page.category || config.title
-    - var isHomeClass = is_home() ? 'full_page' : 'not-home-page'
-    - is_post() ? isHomeClass = 'post-bg' : isHomeClass
-  else
-    - var isHomeClass = 'not-top-img'
-else
-  - var top_img = false
-  - var isHomeClass = 'not-top-img'
-
-header#page-header(class=isHomeClass style=bg_img)
-  !=partial('includes/header/nav', {}, {cache: true})
-  if top_img !== false
-    if is_post()
-      include ./post-info.pug
-    else if is_home() 
-      #site-info
-        h1#site-title=site_title
-        if theme.subtitle.enable
-          - var loadSubJs = true
-          #site-subtitle
-            span#subtitle
-        if(theme.social)
-          #site_social_icons
-            !=fragment_cache('social', function(){return partial('includes/header/social')})
-      #scroll-down
-        i.fas.fa-angle-down.scroll-down-effects
-    else
-      #page-site-info
-        h1#site-title=site_title
+if is_home()
+    #home_top
+        .recent-top-post-group#recent-top-post-group
+            .recent-post-top#recent-post-top
+                #bannerGroup
+                    #banners
+                        .banners-title
+                            .banners-title-big 心若向阳
+                            .banners-title-big 无畏冰霜
+                            .banners-title-small 惟灿 Can1425
+                        .tags-group-all
+                            .tags-group-wrapper
+                                each i in site.data.creativity
+                                    - const evenNum = i.creativity_list.filter((x, index) => index % 2 === 0);
+                                    - const oddNum = i.creativity_list.filter((x, index) => index % 2 === 1);
+                                    each item, index in i.creativity_list
+                                        if ((index + 1 <= evenNum.length) && (index + 1 <= oddNum.length))
+                                            .tags-group-icon-pair
+                                                .tags-group-icon(style=`background: ${evenNum[index].color}`)
+                                                    img(src=evenNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=evenNum[index].name, alt=evenNum[index].name)
+                                                .tags-group-icon(style=`background: ${oddNum[index].color}`)
+                                                    img(src=oddNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=oddNum[index].name, alt=oddNum[index].name)
+                                each i in site.data.creativity
+                                    - const evenNum = i.creativity_list.filter((x, index) => index % 2 === 0);
+                                    - const oddNum = i.creativity_list.filter((x, index) => index % 2 === 1);
+                                    each item, index in i.creativity_list
+                                        if ((index + 1 <= evenNum.length) && (index + 1 <= oddNum.length))
+                                            .tags-group-icon-pair
+                                                .tags-group-icon(style=`background: ${evenNum[index].color}`)
+                                                    img(src=evenNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=evenNum[index].name, alt=evenNum[index].name)
+                                                .tags-group-icon(style=`background: ${oddNum[index].color}`)
+                                                    img(src=oddNum[index].icon, onerror='this.onerror=null,this.src="/img/friend_404.gif"', title=oddNum[index].name, alt=oddNum[index].name)
+                        a#banner-hover(onclick='toRandomPost()')
+                            span.bannerText 随便逛逛
+                            i.fas.fa-arrow-right.banner-righticon
+                    .categoryGroup
+                        .categoryItem(style='box-shadow:var(--bywind-shadow-blue)')
+                            a.categoryButton.CB1.bikan(href='/categories/学习笔记/')
+                                span.categoryButtonText 必看精选
+                                i.fas.fa-dove
+                        .categoryItem(style='box-shadow:var(--bywind-shadow-red)')
+                            a.categoryButton.remen(href='/categories/Hexo魔改/')
+                                span.categoryButtonText 热门文章
+                                i.fas.fa-burn
+                        .categoryItem(style='box-shadow:var(--bywind-shadow-green)')
+                            a.categoryButton.shiyong(href='/categories/后端/')
+                                span.categoryButtonText 实用教程
+                                i.fas.fa-book
+                .topGroup
+                    if site.data.slider
+                        each i in site.data.slider
+                            .recent-post-item
+                                .post_cover.left_radius
+                                    a(href=url_for(i.link), title=i.title)
+                                        span.recent-post-top-text(onclick=`pjax.loadUrl("`+i.link+`")`) 荐
+                                        img.post_bg.entered.loaded(src=url_for(i.cover) onerror="this.onerror=null,this.src='/img/404.png'")
+                                .recent-post-info(onclick=`pjax.loadUrl("`+i.link+`")`)
+                                    a.article-title(href=url_for(i.link), title=i.title)= i.title
