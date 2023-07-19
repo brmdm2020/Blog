@@ -1,4 +1,20 @@
 if is_home()
+nav#nav
+  span#blog_name
+    a#site-name(href=url_for('/')) #[=config.title]
+    
+  #menus
+    if (theme.algolia_search.enable || theme.local_search.enable)
+      #search-button
+        a.site-page.social-icon.search
+          i.fas.fa-search.fa-fw
+          span=' '+_p('search.title')
+    !=partial('includes/header/menu_item', {}, {cache: true})
+
+    #toggle-menu
+      a.site-page
+        i.fas.fa-bars.fa-fw
+
     #home_top
         .recent-top-post-group#recent-top-post-group
             .recent-post-top#recent-post-top
