@@ -1,6 +1,5 @@
 mixin postUI(posts)
   each article , index in page.posts.data
-  include includes/hometop.pug
     .recent-post-item
       -
         let link = article.link || article.path
