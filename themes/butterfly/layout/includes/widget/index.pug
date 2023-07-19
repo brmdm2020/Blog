@@ -5,7 +5,6 @@
     - const tocStyleVal = tocStyle === true || tocStyle === false ? tocStyle : theme.toc.style_simple
     if showToc && tocStyleVal
       .sticky_layout
-        include includes/hometop.pug
         include ./card_post_toc.pug
     else
       !=partial('includes/widget/card_author', {}, {cache: true})
