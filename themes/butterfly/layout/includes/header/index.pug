@@ -1,3 +1,4 @@
+include includes/hometop.pug
 if !theme.disable_top_img && page.top_img !== false
   if is_post()
     - var top_img = page.top_img || page.cover || page.randomcover
