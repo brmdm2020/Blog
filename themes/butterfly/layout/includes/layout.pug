@@ -26,7 +26,6 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
           else
             block content
             if theme.aside.enable && page.aside !== false
-              include includes/hometop.pug
               include widget/index.pug
 
         - var footerBg = theme.footer_bg
