@@ -204,7 +204,7 @@ post_meta:
     categories: true # 首页显示分类
     tags: true # 首页显示标签
     label: true # 首页显示文章描述
-  location: 成都 #地点
+  location: 宜昌 #地点
 
 # # 文章顶部ai摘要
 # post_head_ai_description:
@@ -253,7 +253,7 @@ copyright:
   
 # 相关文章 (related post)
 related_post:
-  enable: true
+  enable: false
 
 # 文章 ptool (ptool)
 ptool:
@@ -261,7 +261,7 @@ ptool:
 
 # 打赏 (reward)
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://cdn.staticaly.com/gh/gtwxxh666/pic@main/1/wechat.png
       link:
@@ -273,19 +273,19 @@ reward:
 # 评论 (comments)
 # --------------------------------
 comments:
-  use: Twikoo # Waline/Twikoo/Artalk
+  use: Waline # Waline/Twikoo/Artalk
   text: true # 在按钮旁边显示评论名称
   # lazyload: 当评论进入浏览器视野时，评论系统将被加载。
   lazyload: false
   count: true # 顶部图显示评论数
-  card_post_count: false # 首页显示评论数
+  card_post_count: true # 首页显示评论数
 
 # waline 
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
+  serverURL: https://can1425.fxyun.fun # Waline server address url
   bg: # waline background
-  pageview: false
+  pageview: true
   option:
 
 # Twikoo
@@ -310,9 +310,9 @@ hometop:
   banner:
     enable: true
     class: creativity #people(人潮汹涌)/creativity(创造力)
-    title_up: 分享设计
-    title_dn: 与科技生活
-    tips: ZHHEO.COM
+    title_up: 阳光与收获
+    title_dn: 欢笑与成长
+    tips: 惟灿 Can1425
   categoryGroup:
     enable: true
     category_list:
@@ -351,7 +351,7 @@ footer:
   bar:
     enable: true
     logo: heofont icon-heologo
-    desc: 最新设计与科技的文章
+    desc: 心若向阳，无畏冰霜
     link: /
     button_text: 了解更多
   footer_icons:
@@ -567,7 +567,7 @@ fancybox: true
 
 # 标签外挂 (mermaid)
 mermaid:
-  enable: false
+  enable: true
   # 主题: default/forest/dark/neutral
   theme:
     light: default
@@ -590,7 +590,7 @@ display_mode: light #light/dark
 # 网址运行时间 (runtime)
 runtime:
   enable: true
-  time: "2023/02/08 00:00:00"
+  time: "2022/05/23 11:42:00"
 
 # 卜算子 (busuanzi) 
 busuanzi:
@@ -671,7 +671,7 @@ lazyload:
 # 51la
 # https://v6.51.la/
 la:
-  enable: false
+  enable: true
   id: JduKh41OtkNBcW5g
 
 # 百度验证
@@ -719,7 +719,7 @@ CDN:
 
   # 第三方CDN
   # 可选moezz/local/jsdelivr/unpkg/cdnjs/custom/tianli(需要征得tianli本人同意)/elemecdn
-  third_party_provider: tianli
+  third_party_provider: jsdelivr
 
   version: false
   # Custom format
