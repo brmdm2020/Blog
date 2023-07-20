@@ -220,7 +220,7 @@ post_meta:
 
 theme_color:
   enable: true
-  mode: img2color # online/local(未完成)
+  mode: online # online/local(未完成)
   api: https://api-marcusyyds.vercel.app/v1/img2color
 
 # 字数统计 (wordcount)
