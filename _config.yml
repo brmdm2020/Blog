@@ -111,7 +111,7 @@ deploy:
 # see https://akilar.top/posts/f1004b1d/
 artitalk:
   enable:
-    card: true # 侧边栏开关
+    card: false # 侧边栏开关
     page: false #页面开关
   # 侧栏相关配置项
   priority: 3 #过滤器优先权
@@ -147,7 +147,7 @@ artitalk:
       'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
 
 magnet:
-  enable: true
+  enable: false
   priority: 1
   enable_page: /
   type: categories
