@@ -16,6 +16,8 @@ thumbnail: /images/uploads/post_45965.jpg
 title: 静与动的完美结合——快速解决Hexo痛点
 top: true
 updated: 2023-7-12T21:21:8.95+8:0
+swiper_index: 1
+top_group_index: 1
 ---
 ## 写在前面
 

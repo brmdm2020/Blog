@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: Acrylic
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -153,24 +153,12 @@ magnet:
   type: categories
   devide: 3
   display:
-    - name: 科技前沿
-      display_name: 科技前沿
+    - name: 学习
+      display_name: 学习
       icon: 💻
-    - name: 生活随评
-      display_name: 生活随评
+    - name: 技术
+      display_name: 技术
       icon: ☕
-    - name: 实用教程
-      display_name: 实用教程
-      icon: 💎
-    - name: 深度好文
-      display_name: 深度好文
-      icon: 🎩
-    - name: 本站日志
-      display_name: 本站日志
-      icon: 📑
-    - name: 理念思考
-      display_name: 理念思考
-      icon: 🎇
   color_setting:
     text_color: black
     text_hover_color: black
@@ -215,3 +203,38 @@ feed:
   icon: https://www.eacls.top/img/favicon.png
   autodiscovery: true
   template:
+
+swiper:
+    enable: true # 开关
+    randomenable: true # 人潮汹涌开关
+    priority: 5 #过滤器优先权
+    enable_page: / # 应用页面
+    timemode: date #date/updated
+    layout: # 挂载容器类型
+      type: id
+      name: home_top
+      index: 1
+    category:
+      - name: 前端
+        path: /categories/前端/
+        shadow: var(--anzhiyu-shadow-blue)
+        class: blue
+        icon: fas fa-dove
+      - name: 大学
+        path: /categories/大学/
+        shadow: var(--anzhiyu-shadow-red)
+        class: red
+        icon: fas fa-burn
+      - name: 生活
+        path: /categories/生活/
+        shadow: var(--anzhiyu-shadow-green)
+        class: green
+        icon: fas fa-book
+    default_descr: 再怎么看我也不知道怎么描述它的啦！
+    swiper_css: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu-pro/lib/swiper.min.css #swiper css依赖
+    swiper_js: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/js/swiper.min.js #swiper js依赖 #swiper js依赖
+    custom_css: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu-pro/lib/swiperstyle.css # 适配主题样式补丁
+    custom_js: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu-pro/lib/swiper_init.js # swiper初始化方法
+    gsap_js: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js
+    people_js: https://npm.elemecdn.com/hexo-butterfly-swiper-anzhiyu-pro/lib/people.min.js
+    categorygroup_css: https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu-pro/lib/categoryGroup.css

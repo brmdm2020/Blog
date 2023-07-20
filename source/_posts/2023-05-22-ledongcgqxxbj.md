@@ -15,6 +15,8 @@ tags:
 title: 这些天乐动传感器的学习笔记（踩的坑）
 top: true
 updated: 2023-7-12T20:54:52.204+8:0
+swiper_index: 4
+top_group_index: 4
 ---
 ## 我为什么 ~100年~ 那么久没写 blog 了
 
