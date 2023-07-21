@@ -65,7 +65,7 @@ nav:
   logo: 
     enable: true
     class: text #i_class/text/img i_class为icon图标,text为文字,img为图片
-    custom: 惟灿 Can1425 # heofont icon-heologo / Heo / https://xxx.com/logo.png/
+    custom: Can1425 # heofont icon-heologo / Heo / https://xxx.com/logo.png/
   fps_enable: false
   menu:
     文库:
