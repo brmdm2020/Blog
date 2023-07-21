@@ -310,7 +310,7 @@ hometop:
   enable: true
   banner:
     enable: true
-    class: people #people(人潮汹涌)/creativity(创造力)
+    class: creativity #people(人潮汹涌)/creativity(创造力)
     title_up: 阳光与收获
     title_dn: 欢笑与成长
     tips: 惟灿 Can1425
