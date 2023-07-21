@@ -26,7 +26,7 @@ default_text: 没有配置捏
 
 # Algolia 搜索 (Algolia search)
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 6
 
@@ -65,7 +65,7 @@ nav:
   logo: 
     enable: true
     class: img #i_class/text/img i_class为icon图标,text为文字,img为图片
-    custom: https://can1425.best6.top/images/uploads/logo.png # heofont icon-heologo / Heo / https://xxx.com/logo.png/
+    custom: https://can1425.best6.top/images/uploads/logo.png/ # heofont icon-heologo / Heo / https://xxx.com/logo.png/
   fps_enable: false
   menu:
     文库:
