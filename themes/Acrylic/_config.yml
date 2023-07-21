@@ -220,7 +220,7 @@ post_meta:
 
 theme_color:
   enable: true
-  mode: online # online/local(未完成)
+  mode: local # online/local(未完成)
   api: https://api-marcusyyds.vercel.app/v1/img2color
 
 # 字数统计 (wordcount)
@@ -497,8 +497,8 @@ footer:
       enable: true
       time: 2022
     right:
-      - text: 京ICP备1905135号
-        link: https://beian.miit.gov.cn/#/Integrated/index
+      - text: 
+        link: 
 
 
 # 侧边栏 (aside)
@@ -672,7 +672,7 @@ lazyload:
 # https://v6.51.la/
 la:
   enable: true
-  id: JduKh41OtkNBcW5g
+  id: 3FLdNQb9pcPWpv0r
 
 # 百度验证
 baidu:
