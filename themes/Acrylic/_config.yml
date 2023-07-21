@@ -274,7 +274,7 @@ reward:
 # 评论 (comments)
 # --------------------------------
 comments:
-  use: Waline # Waline/Twikoo/Artalk
+  use: Twikoo # Waline/Twikoo/Artalk
   text: true # 在按钮旁边显示评论名称
   # lazyload: 当评论进入浏览器视野时，评论系统将被加载。
   lazyload: false
@@ -284,7 +284,7 @@ comments:
 # waline 
 # https://waline.js.org/
 waline:
-  serverURL: https://can1425.fxyun.fun # Waline server address url
+  serverURL: https://can1425.fxyun.fun/ # Waline server address url
   bg: # waline background
   pageview: true
   option:
@@ -292,7 +292,7 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.marcus233.top/
+  envId: https://can1425.fxyun.fun/
   region: 
   visitor: false
   option:
