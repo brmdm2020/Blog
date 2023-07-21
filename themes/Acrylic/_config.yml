@@ -65,8 +65,9 @@ nav:
   logo: 
     enable: true
     class: img #i_class/text/img i_class为icon图标,text为文字,img为图片
-    custom: https://can1425.best6.top/images/uploads/logo.png/ # heofont icon-heologo / Heo / https://xxx.com/logo.png/
-  fps_enable: false
+    custom: https://can1425.best6.top/images/uploads/logo.png/
+    # heofont icon-heologo / Heo / https://xxx.com/logo.png/
+  fps_enable: true
   menu:
     文库:
       文章列表: /archives/ || fas fa-box-archive
