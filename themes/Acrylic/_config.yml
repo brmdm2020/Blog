@@ -26,14 +26,14 @@ default_text: 没有配置捏
 
 # Algolia 搜索 (Algolia search)
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 6
 
 # 本地搜索 (Local search)
 local_search:
-  enable: false
-  preload: false
+  enable: true
+  preload: true
   CDN:
 
 
