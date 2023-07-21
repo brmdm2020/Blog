@@ -220,9 +220,9 @@ post_meta:
 #   Referer: https://xx.xx/
 
 theme_color:
-  enable: false
-  mode: local # online/local(未完成)
-  api: https://api-marcusyyds.vercel.app/v1/img2color
+  enable: true
+  mode: img2color # online/local(未完成)
+  api: https://wcan.best6.top
 
 # 字数统计 (wordcount)
 # 注意安装对应的插件
