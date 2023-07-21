@@ -219,7 +219,7 @@ post_meta:
 #   Referer: https://xx.xx/
 
 theme_color:
-  enable: true
+  enable: false
   mode: local # online/local(未完成)
   api: https://api-marcusyyds.vercel.app/v1/img2color
 
