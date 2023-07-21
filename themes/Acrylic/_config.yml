@@ -284,7 +284,7 @@ comments:
 # waline 
 # https://waline.js.org/
 waline:
-  serverURL: https://can1425.fxyun.fun/ # Waline server address url
+  serverURL: https://can1425.fxyun.fun # Waline server address url
   bg: # waline background
   pageview: true
   option:
@@ -292,9 +292,9 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://can1425.fxyun.fun/
+  envId: https://can1425.fxyun.fun
   region: 
-  visitor: false
+  visitor: true
   option:
 
 # Artalk
