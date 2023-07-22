@@ -65,7 +65,7 @@ nav:
   logo: 
     enable: true
     class: i_class #i_class/text/img i_class为icon图标,text为文字,img为图片
-    custom: fad fa-money-check-edit
+    custom: fas fa-money-check-edit
     # heofont icon-heologo / Heo / https://xxx.com/logo.png/
   fps_enable: false
   menu:
