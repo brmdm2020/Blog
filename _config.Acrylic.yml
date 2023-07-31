@@ -274,7 +274,7 @@ reward:
 # --------------------------------
 comments:
   # Waline/Twikoo/Artalk 推荐只选一个 首字母大写!
-  use: Twikoo
+  use: Waline
   text: true # 在按钮旁边显示评论名称
   lazyload: false # 当评论进入浏览器视野时，评论系统将被加载。
   count: true # 顶部图显示评论数
@@ -285,9 +285,9 @@ comments:
 # waline
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
+  serverURL: https://can1425.fxyun.fun/ # Waline server address url
   bg: # waline background
-  pageview: false
+  pageview: true
   option:
 
 # Twikoo
