@@ -96,7 +96,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: true
+index_img: https://pic2.zhimg.com/v2-dcd2a1c4b47e59b5cc41235dca55d1fe_r.jpg?source=1940ef5c
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
