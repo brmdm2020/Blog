@@ -66,7 +66,7 @@ nav:
     enable: true
     class: i_class #i_class/text/img i_class为icon图标,text为文字,img为图片
     custom: fas fa-scanner-image # heofont icon-heologo / Heo / https://xxx.com/logo.png/
-  fps_enable: false
+  fps_enable: true
   menu:
     文库:
       文章列表: /archives/ || fas fa-box-archive
