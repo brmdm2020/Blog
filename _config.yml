@@ -203,9 +203,3 @@ feed:
   icon: https://www.eacls.top/img/favicon.png
   autodiscovery: true
   template:
-
-swiperPost:
-  enable: true
-
-homeCard:
-  enable: true
