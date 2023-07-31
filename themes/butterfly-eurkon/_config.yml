@@ -922,6 +922,24 @@ CDN:
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   custom_format:
 
+homeCard:
+  enable: true
+
+swiperPost:
+  enable: true
+
+card_clock:
+  enable: true
+  CDN: https://npm.elemecdn.com/eurkon-cdn/hexo/js/card_clock.js
+
+card_history: 
+  enable: true
+  CDN: https://npm.elemecdn.com/eurkon-cdn/hexo/js/card_history.js
+
+card_weibo:
+  enable: true
+  CDN: https://npm.elemecdn.com/eurkon-cdn/hexo/js/card_weibo.js
+
   option:
     # main_css:
     # main:
