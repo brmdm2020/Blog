@@ -15,7 +15,6 @@ page:
 
 card_post_count: comments
 
-sticky: Sticky
 no_title: No title
 
 post:
@@ -45,6 +44,7 @@ search:
   local_search:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}"
+    hits_stats: '${hits} results found'
 
 pagination:
   prev: Previous Post
@@ -82,6 +82,7 @@ aside:
     link: link
     code: code
   card_toc: Catalog
+  card_post_series: Series
 
 date_suffix:
   just: Just
@@ -117,5 +118,6 @@ Snackbar:
   night_to_day: Light Mode Activated Manually
 
 loading: Loading...
+load_more: Load More
 
 error404: Page not found
