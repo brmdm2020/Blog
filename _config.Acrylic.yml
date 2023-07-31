@@ -221,7 +221,7 @@ post_meta:
 theme_color:
   enable: true
   mode: img2color # online/local(未完成)
-  api: https://can1425.fxyun.fun
+  api: https://wcan.best6.top
 
 # 字数统计 (wordcount)
 # 注意安装对应的插件
