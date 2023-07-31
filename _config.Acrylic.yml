@@ -26,7 +26,7 @@ default_text: 没有配置捏
 
 # Algolia 搜索 (Algolia search)
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 6
 
@@ -64,8 +64,8 @@ nav:
             class: out
   logo: 
     enable: true
-    class: i_class #i_class/text/img i_class为icon图标,text为文字,img为图片
-    custom: heofont icon-heologo # heofont icon-heologo / Heo / https://xxx.com/logo.png/
+    class: text #i_class/text/img i_class为icon图标,text为文字,img为图片
+    custom: 惟灿 Can1425 # heofont icon-heologo / Heo / https://xxx.com/logo.png/
   fps_enable: false
   menu:
     文库:
@@ -118,7 +118,7 @@ essay:
 
 # memos短文 (memos page)
 memos:
-  enable: true
+  enable: false
   descr: 分享生活的小确幸
   tip: 使用 memos 构建
   link: /posts/49736/
@@ -204,7 +204,7 @@ post_meta:
     categories: true # 首页显示分类
     tags: true # 首页显示标签
     label: true # 首页显示文章描述
-  location: 成都 #地点
+  location: 宜昌 #地点
 
 # # 文章顶部ai摘要
 # post_head_ai_description:
@@ -221,7 +221,7 @@ post_meta:
 theme_color:
   enable: true
   mode: img2color # online/local(未完成)
-  api: https://api-marcusyyds.vercel.app/v1/img2color
+  api: https://can1425.fxyun.fun
 
 # 字数统计 (wordcount)
 # 注意安装对应的插件
