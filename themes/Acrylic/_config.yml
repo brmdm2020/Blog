@@ -36,7 +36,6 @@ local_search:
   preload: false
   CDN:
 
-
 # 导航栏 (nav)
 # --------------------------------
 nav:
@@ -207,16 +206,9 @@ post_meta:
   location: 成都 #地点
 
 # # 文章顶部ai摘要
-# post_head_ai_description:
-#   enable: true
-#   gptName: Heo
-#   mode: tianli # 默认模式 可选值: tianli/local
-#   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
-#   btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377
-#   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
-#   basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
-#   key: SZLhZo3TjRN7GZ9JiRFa
-#   Referer: https://xx.xx/
+tianliGPT:
+  enable: true
+  key: SZLhZo3TjRN7GZ9JiRFa
 
 theme_color:
   enable: true
@@ -243,20 +235,20 @@ katex:
   per_page: false
   hide_scrollbar: true
 
-# 版权 (copyright)
+# 版权 (copyright) [new]
 copyright:
   enable: true
-  link: /cc/
   license: CC BY-NC-SA 4.0
-  short: cc
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  subscribe: 
+    enable: true
+  author_img:
+    enable: true
+    back: https://bu.dusays.com/2023/07/19/64b77416a23a4.png
+    front: https://bu.dusays.com/2023/07/19/64b776957f4ea.png
   
 # 相关文章 (related post)
 related_post:
-  enable: true
-
-# 文章 ptool (ptool)
-ptool:
   enable: true
 
 # 打赏 (reward)
@@ -281,7 +273,6 @@ comments:
   card_post_count: false # 首页显示评论数
   commentBarrage: true # 仅支持twikoo
 
-
 # waline
 # https://waline.js.org/
 waline:
@@ -297,7 +288,7 @@ twikoo:
   accessToken: 169d5f97a0f889913d83e04f40f3e442 # 如果commentBarrage开启则填 不要搞我
   region:
   option:
-  visitor: false # 新定义: 是否开启匿名评论
+  visitor: visitor@marcus233.top # 新定义: 是否开启匿名评论
 
 # Artalk
 # https://artalk.js.org/guide/frontend/config.html
@@ -503,7 +494,6 @@ footer:
       - text: 京ICP备1905135号
         link: https://beian.miit.gov.cn/#/Integrated/index
 
-
 # 侧边栏 (aside)
 # --------------------------------
 aside:
@@ -552,6 +542,7 @@ aside:
 # 加载动画 (loading)
 loading: 
   enable: true
+  img: https://bu.dusays.com/2023/07/15/64b2499a6ad24.png
 
 # 手机边栏 (sidebar)
 sidebar: 
@@ -606,7 +597,6 @@ busuanzi:
   site_pv: true
   page_pv: true
 
-
 # 右下悬浮栏 (right side)
 # --------------------------------
 
@@ -644,11 +634,16 @@ pjax:
     # - xxxx
     # - xxxx
 
+swpp:
+  enable: false
+  # rules 文件的名称（缺省值为 'sw-rules'）
+  # 没有需求不建议更改，当主题和用户配置项不同时会导致主题和插件无法正常配合工作
+  # rules:
+
 # Aplayer
 aplayerInject:
   enable: false
   per_page: true
-
 
 # 弹窗 (snackbar)
 # https://github.com/polonel/SnackBar
@@ -656,8 +651,8 @@ aplayerInject:
 snackbar:
   enable: true
   position: top-center
-  bg_light: '#49b1f5' 
-  bg_dark: '#1f1f1f' 
+  bg_light: '#49b1f5'
+  bg_dark: '#1f1f1f'
 
 # 预加载 (instantpage)
 # https://instant.page/
@@ -692,6 +687,7 @@ preconnect:
   - //bu.dusays.com
   - //d.zhheo.com
   - //p.zhheo.com
+
 # PWA
 # https://github.com/JLHwung/hexo-offline
 pwa:
@@ -701,7 +697,6 @@ pwa:
   favicon_32_32: /pwa/32.png
   favicon_16_16: /pwa/16.png
   mask_icon: /pwa/safari-pinned-tab.svg
-
 
 # 引入 (inject)
 # --------------------------------
@@ -716,18 +711,16 @@ inject:
     # JS
     # - <script src="/js/xxx.js"></script>
 
-    
-
 # CDN
 # --------------------------------
 CDN:
   #主题CDN
-  # 可选local/jsdelivr/unpkg/cdnjs/custom
+  # 可选 local/chuqi/elemecdn/cbd/moezzcdn/jsdelivr/unpkg/cdnjs/custom
   internal_provider: local
 
   # 第三方CDN
-  # 可选moezz/local/jsdelivr/unpkg/cdnjs/custom/chuqi/elemecdn
-  third_party_provider: chuqi
+  # 可选 chuqi/elemecdn/cbd/moezzcdn/jsdelivr/unpkg/cdnjs/custom/~tianli~(呜呜呜)/onmicrosoft
+  third_party_provider: onmicrosoft
 
   version: false
   # Custom format
@@ -738,16 +731,16 @@ CDN:
     # main_css:
     # main:
     # utils:
+    # heo: /js/heo.js
     jquery: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js
-    heo: /js/heo.js
     # countup_js: /js/countup.js
     # translate:
     # local_search:
     algolia_js: /lib/algolia/algolia.js
     # algolia_search_v4: 
     instantsearch_v4: /lib/algolia/instantsearch.min.js
-    # pjax:
-    twikoo: https://cdn1.tianli0.top/gh/zhheo/twikoo@dev/dist/twikoo.all.min.js
+    pjax: https://jsd.onmicrosoft.cn/npm/pjax@0.2.8/pjax.min.js
+    twikoo: /lib/twikoo/twikoo.all.min.js #https://jsd.onmicrosoft.cn/gh/zhheo/twikoo@dev/dist/twikoo.all.min.js
     # waline_js:
     # waline_css:
     # mathjax:
@@ -757,17 +750,22 @@ CDN:
     lazyload: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vanilla-lazyload/17.3.1/lazyload.iife.min.js
     instantpage: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/instant.page/5.1.0/instantpage.min.js
     # typed:
-    # pangu:
     pace: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/pace/1.2.4/pace.min.js
-    qrcode: /lib/qrcode/qrcode.min.js
-    fancybox_css_v4: https://cdn1.tianli0.top/npm/@fancyapps/ui/dist/fancybox.min.css
+    fancybox_css_v4: https://jsd.onmicrosoft.cn/npm/@fancyapps/ui/dist/fancybox.min.css
     # fancybox_v4:
     snackbar_css: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css
     snackbar: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.js
-    # activate_power_mode:
-    fontawesomeV6: https://cdn1.tianli0.top/npm/@fortawesome/fontawesome-free/css/all.min.css
+    fontawesomeV6: https://jsd.onmicrosoft.cn/npm/@fortawesome/fontawesome-free/css/all.min.css
     aplayer_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
     aplayer_js: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
-    meting_js: https://cdn1.tianli0.top/gh/hexo-theme-Acrylic/JS-Acrylic@main/Meting.js
+    meting_js: https://jsd.onmicrosoft.cn/gh/hexo-theme-Acrylic/JS-Acrylic@main/Meting.js
     # artalk_js:
     # artalk_css:
+    # commentBarrage:
+    # rightmenu:
+    # random:
+    busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+    swiper: /lib/swiper/swiper.min.js
+    swiper_bundle: /lib/swiper/swiper-bundle.min.js
+    waterfall: /lib/waterfall.min.js
+    qrcode: /lib/qrcode/qrcode.min.js

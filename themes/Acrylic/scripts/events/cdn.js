@@ -24,6 +24,16 @@ hexo.extend.filter.register('before_generate', () => {
       file: 'js/utils.js',
       version
     },
+    heo: {
+      name: 'hexo-theme-acrylic',
+      file: 'js/heo.js',
+      version
+    },
+    blogex: {
+      name: 'hexo-theme-acrylic',
+      file: 'js/blogex.js',
+      version
+    },
     translate: {
       name: 'hexo-theme-acrylic',
       file: 'js/tw_cn.js',
@@ -39,11 +49,31 @@ hexo.extend.filter.register('before_generate', () => {
       file: 'js/search/algolia.js',
       version
     },
-    heo_js: {
+    commentBarrage_js: {
       name: 'hexo-theme-acrylic',
-      file: 'js/heo.js',
+      file: 'js/commentBarrage.js',
       version
     },
+    random_js: {
+      name: 'hexo-theme-acrylic',
+      file: 'zhheo/random.js',
+      version
+    },
+    rightmenu_js: {
+      name: 'hexo-theme-acrylic',
+      file: 'js/rightmenu.js',
+      version
+    },
+    tianli_gpt_js: {
+      name: 'hexo-theme-acrylic',
+      file: 'js/tianli_gpt.js',
+      version
+    },
+    themecolor_js: {
+      name: 'hexo-theme-acrylic',
+      file: 'js/themecolor.js',
+      version
+    }
   }
 
   const minFile = (file) => {
@@ -74,8 +104,11 @@ hexo.extend.filter.register('before_generate', () => {
         local: cond === 'internal' ? cdnjs_file : `/pluginsSrc/${name}/${file}`,
         chuqi: `https://cdn.chuqis.com/npm/${name}${verType}/${min_file}`,
         elemecdn: `https://npm.elemecdn.com/${name}${verType}/${file}`,
-        jsdelivr: `https://cdn.jsdelivr.net/npm/${name}${verType}/${min_file}`,
+        cbd: `https://cdn.cbd.int/${name}${verType}/${file}`,
+        fcdn: `https://fcdn.dusays.com/npm/${name}${verType}/${min_file}`,
+        onmicrosoft: `https://jsd.onmicrosoft.cn/npm/${name}${verType}/${min_file}`,
         moezzcdn: `https://jsd.moezz.cn//npm/${name}${verType}/${min_file}`,
+        jsdelivr: `https://cdn.jsdelivr.net/npm/${name}${verType}/${min_file}`,
         unpkg: `https://unpkg.com/${name}${verType}/${file}`,
         cdnjs: `https://cdnjs.cloudflare.com/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}`,
         custom: (CDN.custom_format || '').replace(/\$\{(.+?)\}/g, (match, $1) => value[$1])

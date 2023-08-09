@@ -117,15 +117,15 @@ function travelling() {
     acy.snackbarShow("博客没有配置友圈哦");
   }
 }
-function toforeverblog() {
+function toTianliGPTblog() {
     Snackbar.show({
-        text: "点击前往按钮进入「十年之约」项目中的成员博客，不保证跳转网站的安全性和可用性",
+        text: "点击前往按钮进入「TianliGPT」项目中的成员博客，不保证跳转网站的安全性和可用性",
         duration: 8e3,
         pos: "top-center",
         actionText: "前往",
         onActionClick: function(e) {
             $(e).css("opacity", 0),
-            window.open(link, "https://www.foreverblog.cn/go.html")
+            window.open("https://summary.zhheo.com/static/matrix.html", "_blank")
         }
     })
 }
@@ -200,6 +200,19 @@ function owoBig() {
         }
     }
     ))
+}
+function initObserver() {
+    var e = document.getElementById("post-comment")
+      , t = document.getElementById("pagination");
+    e && t && new IntersectionObserver((function(e) {
+        e.forEach((function(e) {
+            e.isIntersecting ? (t.classList.add("show-window"),
+            document.querySelector(".comment-barrage").style.bottom = "-200px") : (t.classList.remove("show-window"),
+            document.querySelector(".comment-barrage").style.bottom = "0px")
+        }
+        ))
+    }
+    )).observe(e)
 }
 function percent() {
     let e = document.documentElement.scrollTop || window.pageYOffset
@@ -299,13 +312,14 @@ function initBlog() {
     heo.reflashEssayWaterFall(),
     heo.darkModeStatus(),
     heo.categoriesBarActive(),
+    initObserver(),
     heo.initThemeColor(),
     heo.hideLoading(),
     heo.tagPageActive(),
-    heo.removeBodyPaceClass(),
-    heoGPT.aiExplanation(),
-    AIEngine(),
-    addAIToggleListener()
+    heo.removeBodyPaceClass()
+    // heoGPT.aiExplanation(),
+    // AIEngine(),
+    // addAIToggleListener()
 }
 document.addEventListener("touchstart", (e=>{
     RemoveRewardMask()
@@ -343,14 +357,6 @@ $(".topGroup").hover((function() {}
 }
 )),
 document.getElementById("post-comment") && owoBig(),
-document.addEventListener("scroll", acy.throttle((function() {
-    var e = window.scrollY + document.documentElement.clientHeight
-      , t = (window,
-    document.getElementById("pagination"))
-      , o = document.getElementById("post-tools");
-    o && t && (document.body.clientWidth > 1300 && (o.offsetTop + o.offsetHeight / 2 < e ? t.classList.add("show-window") : t.classList.remove("show-window")))
-}
-), 200)),
 "true" == localStorage.getItem("keyboardToggle") ? (document.querySelector("#consoleKeyboard").classList.add("on"),
 heo_keyboard = !0) : (document.querySelector("#consoleKeyboard").classList.remove("on"),
 heo_keyboard = !1),

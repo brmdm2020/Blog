@@ -1,6 +1,6 @@
 {
 	"description": "A beautiful, powerful, and efficient Hexo theme developed by the hexo-theme-Acrylic team",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Hexo-Theme-Acrylic<Acrylic@marcus233.top>",
 	"license": "Apache-2.0",
 	"bugs": {
@@ -9,7 +9,12 @@
 	},
 	"main": "package.json",
 	"homepage": "https://pro.acrylic.org.cn/",
-	"keywords": ["hexo", "theme", "Acrylic","hexo-theme-Acrylic"],
+	"keywords": [
+		"hexo",
+		"theme",
+		"Acrylic",
+		"hexo-theme-Acrylic"
+	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -21,5 +26,8 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hexo-theme-Acrylic/hexo-theme-Acrylic.git"
+	},
+	"devDependencies": {
+		"hexo-swpp": "^2.8.4"
 	}
 }

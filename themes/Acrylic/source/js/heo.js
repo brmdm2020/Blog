@@ -2,7 +2,7 @@ let heo_cookiesTime = null
   , heo_musicPlaying = !1
   , heo_keyboard = !1
   , heo_intype = !1
-  , heogpt = null
+  // , heogpt = null
   , lastSayHello = "";
 var heo = {
     darkModeStatus: function() {
@@ -219,8 +219,8 @@ var heo = {
         heo.changeThemeColor(e)
     },
     hideLoading: function() {
-        document.querySelector("#loading-box").classList.add("loaded"),
-        heoGPT.aiExplanation()
+        document.querySelector("#loading-box").classList.add("loaded")
+        // heoGPT.aiExplanation()
     },
     musicToggle: function() {
         heo_musicPlaying ? (document.querySelector("#nav-music").classList.remove("playing"),
@@ -317,7 +317,7 @@ var heo = {
         var e = document.getElementById("category-bar-items")
           , t = document.getElementById("category-bar-next");
         function o() {
-            t.style.transform = e.scrollLeft + e.clientWidth >= e.scrollWidth ? "rotate(180deg)" : ""
+            t.style.transform = e.scrollLeft + e.clientWidth >= e.scrollWidth ? "rotate(180deg)!important" : ""
         }
         e.addEventListener("scroll", o);
         var n = e.clientWidth;
@@ -408,22 +408,22 @@ $(document).ready((function() {
 }
 )),
 document.addEventListener("pjax:complete", (function() {
-    heoGPTIsRunning = !1,
-    heo_aiPostExplanation = "",
-    aiTalkMode = !1,
-    heoGPTModel = "HeoGPT",
+    // heoGPTIsRunning = !1,
+    // heo_aiPostExplanation = "",
+    // aiTalkMode = !1,
+    // heoGPTModel = "HeoGPT",
     initBlog()
 }
 )),
 document.addEventListener("pjax:click", (function() {
-    console.log("pjax:click"),
-    heoGPT_timeoutId && clearTimeout(heoGPT_timeoutId),
-    heoGPT_observer && heoGPT_observer.disconnect()
+    console.log("pjax:click")
+    // heoGPT_timeoutId && clearTimeout(heoGPT_timeoutId),
+    // heoGPT_observer && heoGPT_observer.disconnect()
 }
 )),
 // 如果你想使用主题的话,请留下这一行,谢谢
 console.log(
-  "\n %c Acrylic-Dev v1.0.2 %c https://github.com/hexo-theme-acrylic/hexo-theme-acrylic \n",
+  "\n %c Acrylic-Dev v1.0.3 %c https://github.com/hexo-theme-acrylic/hexo-theme-acrylic \n",
   "color: #ffffff; background: #425aef; padding:5px 0; border-radius: 3px; font-size: 15px;",
   "color: #425aef; background: #ffffff; padding:5px 0; border-radius: 0 3px 3px 0;"
 );
