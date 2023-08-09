@@ -1,30 +1,30 @@
 menu:
-  # 文章:
-  #   隧道: /archives/ || anzhiyu-icon-box-archive
-  #   分类: /categories/ || anzhiyu-icon-shapes
-  #   标签: /tags/ || anzhiyu-icon-tags
+   文章:
+     隧道: /archives/ || anzhiyu-icon-box-archive
+     分类: /categories/ || anzhiyu-icon-shapes
+     标签: /tags/ || anzhiyu-icon-tags
 
-  # 友链:
-  #   友人帐: /link/ || anzhiyu-icon-link
-  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-  #   留言板: /comments/ || anzhiyu-icon-envelope
+   友链:
+     友人帐: /link/ || anzhiyu-icon-link
+     朋友圈: /fcircle/ || anzhiyu-icon-artstation
+     留言板: /comments/ || anzhiyu-icon-envelope
 
-  # 我的:
-  #   音乐馆: /music/ || anzhiyu-icon-music
-  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
-  #   相册集: /album/ || anzhiyu-icon-images
-  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
+   我的:
+     音乐馆: /music/ || anzhiyu-icon-music
+     追番页: /bangumis/ || anzhiyu-icon-bilibili
+     相册集: /album/ || anzhiyu-icon-images
+     小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-  # 关于:
-  #   关于本人: /about/ || anzhiyu-icon-paper-plane
-  #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+   关于:
+     关于本人: /about/ || anzhiyu-icon-paper-plane
+     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
   enable: false
-  travelling: false
-  clock: false
+  travelling: true
+  clock: true
   menu:
     - title: 网页
       item:
@@ -64,20 +64,20 @@ social:
 
 # 作者卡片 状态
 author_status:
-  enable: false
+  enable: true
   status: ✍️
   alias: writing_hand
   fallback_src: https://github.githubassets.com/images/icons/emoji/unicode/270d.png
   text: on Studying
   skills:
-    # - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
-    # - 🏠 智能家居小能手
-    # - 🔨 设计开发一条龙
-    # - 🤝 专修交互与设计
-    # - 🏃 脚踏实地行动派
-    # - 🧱 团队小组发动机
-    # - 💢 壮汉人狠话不多
+     - 🤖️ 数码科技爱好者
+     - 🔍 分享与热心帮助
+     - 🏠 智能家居小能手
+     - 🔨 设计开发一条龙
+     - 🤝 专修交互与设计
+     - 🏃 脚踏实地行动派
+     - 🧱 团队小组发动机
+     - 💢 壮汉人狠话不多
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系统
@@ -138,7 +138,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: true
   CDN:
 
@@ -223,7 +223,7 @@ mainTone:
   enable: false # true or false 文章是否启用获取图片主色调
   mode: api # cdn/api/both cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取
   # 项目地址：https://github.com/anzhiyu-c/img2color-go
-  api: https://img2color-go.vercel.app/api?img= # mode为api时可填写
+  api: https://wcan.best6.top # mode为api时可填写
   cover_change: true # 整篇文章跟随cover修改主色调
 
 # wordcount (字数统计)
@@ -262,7 +262,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 宜昌
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -370,7 +370,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
+  serverURL: https://can1425.fxyun.fun # Waline server address url
   bg: # waline background
   pageview: false
   option:
@@ -637,9 +637,6 @@ theme_color:
   meta_theme_color_light: "#f7f9fe"
   meta_theme_color_dark: "#18171d"
 
-# 文章h2添加分隔线
-h2Divider: false
-
 # 表格隔行变色
 table_interlaced_discoloration: false
 
@@ -847,15 +844,15 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 5/23/202 11:42:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -1029,9 +1026,9 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: anheyu.com
+  title: 分享阳光与收获
+  subTitle: 欢笑与成长
+  siteText: 惟灿 Can1425
   category:
     - name: 前端
       path: /categories/前端开发/
@@ -1072,7 +1069,7 @@ universe:
 
 # 页面卡片顶部气泡升起效果
 bubble:
-  enable: false
+  enable: true
 
 #  控制台打印信息
 console:
@@ -1114,7 +1111,7 @@ nav_music:
 # 评论匿名邮箱
 visitorMail:
   enable: true
-  mail: visitor@anheyu.com
+  mail: 114514@1919810.com
 
 # ptool 文章底部工具
 ptool:
@@ -1127,33 +1124,33 @@ ptool:
 
 # 欢迎语配置
 greetingBox:
-  enable: false
+  enable: true
   default: 晚上好👋
   list:
-    # - greeting: 晚安😴
-    #   startTime: 0
-    #   endTime: 5
-    # - greeting: 早上好鸭👋, 祝你一天好心情！
-    #   startTime: 6
-    #   endTime: 9
-    # - greeting: 上午好👋, 状态很好，鼓励一下～
-    #   startTime: 10
-    #   endTime: 10
-    # - greeting: 11点多啦, 在坚持一下就吃饭啦～
-    #   startTime: 11
-    #   endTime: 11
-    # - greeting: 午安👋, 宝贝
-    #   startTime: 12
-    #   endTime: 14
-    # - greeting: 🌈充实的一天辛苦啦！
-    #   startTime: 14
-    #   endTime: 18
-    # - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
-    #   startTime: 19
-    #   endTime: 19
-    # - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
-    #   startTime: 20
-    #   endTime: 24
+     - greeting: 晚安😴
+       startTime: 0
+       endTime: 5
+     - greeting: 早上好鸭👋, 祝你一天好心情！
+       startTime: 6
+       endTime: 9
+     - greeting: 上午好👋, 状态很好，鼓励一下～
+       startTime: 10
+       endTime: 10
+     - greeting: 11点多啦, 在坚持一下就吃饭啦～
+       startTime: 11
+       endTime: 11
+     - greeting: 午安👋, 宝贝
+       startTime: 12
+       endTime: 14
+     - greeting: 🌈充实的一天辛苦啦！
+       startTime: 14
+       endTime: 18
+     - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
+       startTime: 19
+       endTime: 19
+     - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
+       startTime: 20
+       endTime: 24
 
 
 # 文章顶部ai摘要
