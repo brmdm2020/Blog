@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 惟灿 Can1425
+title: 礼拜五
 subtitle: '心若向阳，无畏冰霜'
 description: '心若向阳，无畏冰霜'
 keywords: 
-author: 惟灿 Can1425
+author: 礼拜五
 language: zh-CN
 timezone: ''
-email: 'myqf1425@126.com'
+email: 'brmdmovo@gmail.com'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://can1425.best6.top
+url: https://wzqnhdzn.eu.org
 root: /
 permalink: posts/:abbrlink/
 
